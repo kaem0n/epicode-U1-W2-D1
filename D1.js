@@ -53,8 +53,9 @@ console.log('4) x =', x)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-// myName = 'Ruggia Piquer'; console.log('5) myNames\'s new value is:', myName); // Scommentando questa riga la console restituisce un errore in quanto non
-// è possibile riassegnare un valore a una variabile dichiarata con "const". Perciò creo una nuova variabile per il cognome:
+// myName = 'Ruggia Piquer'; console.log('5) myNames\'s new value is:', myName);
+/* Scommentando questa riga la console restituisce un errore in quanto non è possibile riassegnare un valore a una variabile dichiarata con "const".
+Perciò creo una nuova variabile per il cognome: */
 const mySurname = 'Ruggia Piquer'
 console.log('5) (READ COMMENTS FIRST) My surname is:', mySurname)
 
@@ -77,3 +78,11 @@ let name1 = 'john'
 let name2 = 'John'
 console.log('7) are name1 and name2 the same?', name1 === name2)
 console.log('EXTRA) are name1 and name2 the same, using lowercase only?', name1 === name2.toLowerCase())
+
+console.log('//==========================================//')
+
+// ESPERIMENTO CALCOLO PERCENTUALE (IGNORARE)
+let number = 200
+let percent = 25
+let result = number * percent / 100
+console.log('Esperimento: 25% di 200 =', result)
