@@ -1,3 +1,5 @@
+console.log('/==/ Esercizio U1-W2-D1 - (https://github.com/kaem0n/epicode-U1-W2-D1) /==/')
+
 /*
 REGOLE
 - Tutte le risposte devono essere scritte in JavaScript
@@ -7,8 +9,6 @@ REGOLE
 - Utilizza dei console.log() per testare le tue variabili e/o i risultati delle espressioni che stai creando.
 */
 
-console.log('/==/ Esercizio U1-W2-D1 - (https://github.com/kaem0n/epicode-U1-W2-D1) /==/')
-
 /* ESERCIZIO 1
  Elenca e descrivi i principali datatype in JavaScript. Prova a spiegarli come se volessi farli comprendere a un bambino.
 */
@@ -16,9 +16,9 @@ console.log('/==/ Esercizio U1-W2-D1 - (https://github.com/kaem0n/epicode-U1-W2-
 /* SCRIVI QUI LA TUA RISPOSTA */
 const type1 = 'stringa'; // una stringa è un insieme di caratteri alfanumerici che JS interpreta come semplici porzioni di testo, anche in presenza di numeri all'interno delle parentesi
 const type2 = 123; // numeri, interpretati da JS come tali e quindi utilizzabili per operazioni matematiche
-const type3 = true && false; // boolean, che hanno valore di vero o falso e possono essere usati per far avverare certe condizioni compilate all'interno del programma
-const type4 = null; // indica che la dichiarazione non ha all'interno alcun dato
-const type5 = undefined; // indica che la dichiarazione non ha un contenuto definito; è la tipologia di default se non si decide di non assegnare alcun valore
+const type3 = true && false; // boolean, che assegna un valore di vero o falso, utili per verificare le condizioni
+const type4 = null; // indica che la variabile non ha all'interno alcun dato
+const type5 = undefined; // indica che la variabile non ha un contenuto definito; è la tipologia di default se non si decide di non assegnare alcun valore
 console.log('1) JS\'s datatypes:', typeof type1, typeof type2, typeof type3, typeof type4, typeof type5)
 
 /* ESERCIZIO 2
