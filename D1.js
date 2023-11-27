@@ -18,7 +18,7 @@ const type1 = 'stringa'; // una stringa è un insieme di caratteri alfanumerici 
 const type2 = 123; // numeri, interpretati da JS come tali e quindi utilizzabili per operazioni matematiche
 const type3 = true && false; // boolean, che assegna un valore di vero o falso, utili per verificare le condizioni
 const type4 = null; // indica che la variabile non ha all'interno alcun dato
-const type5 = undefined; // indica che la variabile non ha un contenuto definito; è la tipologia di default se non si decide di non assegnare alcun valore
+const type5 = undefined; // indica che la variabile non ha un contenuto definito; è la tipologia di default se non si assegna alcun valore
 console.log('1) JS\'s datatypes:', typeof type1, typeof type2, typeof type3, typeof type4, typeof type5)
 
 /* ESERCIZIO 2
